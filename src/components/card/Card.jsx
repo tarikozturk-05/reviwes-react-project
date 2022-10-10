@@ -1,5 +1,12 @@
 import React from 'react'
+import Button from '../button/Button';
 import cartStyle from './card.module.css'
+
+import { FaChevronLeft ,
+  FaChevronRight
+
+} from 'react-icons/fa';
+
 const Card = ({data}) => {
     // console.log(data)
     // const {image,id,name,job,text}=data
@@ -14,6 +21,8 @@ const Card = ({data}) => {
             <h2>{name}</h2>
             <h3>{job}</h3>
             <p>{text}</p>
+            <span><FaChevronLeft /> <FaChevronRight /></span>
+            <Button/>
             </div>
            
            )
