@@ -45,7 +45,7 @@ const checkNumber =(number)=>{
  const suprise=()=>{
   let x = Math.round(Math.random()*data.length)
   console.log(x)
-  if(x == index){
+  if(x === index){
     x= index +1
   }
  setIndex( checkNumber(x))
@@ -61,7 +61,7 @@ const checkNumber =(number)=>{
             <h2>{name}</h2>
             <h3>{job}</h3>
             <p>{text}</p>
-            <span><FaChevronLeft style={{border:"2px solid black",height:"1.5rem",borderRadius:"0.5rem",padding:"5px",width:"28px",height:"28px"}} className='sol' onClick={azalt} /> <FaChevronRight style={{border:"2px solid black",height:"1.5rem",borderRadius:"0.5rem",padding:"5px",width:"28px",height:"28px"}} className='sag'  onClick={arttır}/></span> <br />
+            <span><FaChevronLeft style={{border:"2px solid black",borderRadius:"0.5rem",padding:"5px",width:"28px",height:"28px"}} className='sol' onClick={azalt} /> <FaChevronRight style={{border:"2px solid black",borderRadius:"0.5rem",padding:"5px",width:"28px",height:"28px"}} className='sag'  onClick={arttır}/></span> <br />
             <button onClick={suprise}>Suprise Me!🐱‍🐉</button>
             </div>
            
