@@ -1,1 +1,1 @@
-[tıklaaa](https://tariktarik-lokum-ed960c.netlify.app/)
+[tıklaaa](https://tariktarik-unicorn-b142cb.netlify.app/)
